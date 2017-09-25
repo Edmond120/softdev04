@@ -4,7 +4,7 @@ my_app = Flask(__name__)
 
 @my_app.route('/')
 def root():
-    return '/route1\n/route2'
+    return '/1\n/2'
 @my_app.route('/1')
 def route1():
     return 'route1'
