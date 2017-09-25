@@ -9,6 +9,7 @@ def root():
 def route1():
     return 'route1'
 @my_app.route('/2')
+def route2():
     return 'route2'
 
 if __name__ == '__main__':
